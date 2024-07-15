@@ -27,18 +27,51 @@ class MainActivity : AppCompatActivity() {
 
     private val easyWords = listOf(
         "cat", "dog", "sun", "moon", "tree", "book", "fish", "bird", "apple", "car",
-        // ... (rest of the easy words)
+        "hat", "ball", "star", "hand", "play", "milk", "rose", "cake", "door", "shoe",
+        "frog", "coat", "fork", "sock", "cake", "kite", "ring", "leaf", "pool", "coin",
+        "hill", "toy", "desk", "lamp", "road", "wave", "kite", "duck", "sock", "sail",
+        "pen", "map", "star", "sand", "bell", "fire", "cake", "ring", "nest", "pool",
+        "wind", "fish", "shoe", "moon", "cat", "dog", "egg", "ball", "hand", "hat",
+        "rose", "bird", "leaf", "book", "car", "toy", "sky", "tree", "drum", "worm",
+        "nose", "tail", "ring", "hand", "race", "clay", "seat", "step", "hand", "sky",
+        "cloud", "park", "root", "bell", "flame", "well", "ship", "star", "gate", "web",
+        "horn", "cake", "lamp", "nest", "frog", "leaf", "spot", "line", "bark", "park",
+        "bike", "bowl", "beet", "bump", "cap", "drum", "farm", "frog", "game", "hill",
+        "kite", "lawn", "mole", "nest", "peach", "quilt", "sock", "tent", "van", "wind",
+        "bell", "cage", "dust", "face", "glow", "horn", "ice", "joke", "knee", "lamp",
+        "moon", "nose", "owl", "pole", "quack", "rose", "soap", "tree", "urn", "vest",
+        "wave", "yard", "zoo", "dust", "palm", "web", "band", "coal", "crew", "deck"
     )
 
     private val mediumWords = listOf(
         "bicycle", "candle", "dolphin", "elephant", "forest", "garden", "hiking", "igloo", "jigsaw", "kangaroo",
-        // ... (rest of the medium words)
+        "lighthouse", "mountain", "notebook", "octopus", "penguin", "quicksand", "rainbow", "scissors", "tornado", "unicorn",
+        "vampire", "whistle", "xylophone", "yacht", "zebra", "adventure", "balloon", "chocolate", "dinosaur", "exercise",
+        "firefighter", "giraffe", "hamburger", "internet", "jungle", "koala", "labyrinth", "monopoly", "notebook", "octagon",
+        "parachute", "quokka", "rainforest", "sapphire", "telescope", "universe", "volcano", "watermelon", "xenophobia", "yesterday",
+        "algebra", "butterfly", "caterpillar", "dolphin", "exploration", "furniture", "geography", "hydrangea", "insect", "jigsaw",
+        "keyboard", "labrador", "mushroom", "nutcracker", "ostrich", "pomegranate", "quilt", "raccoon", "sundial", "tortoise",
+        "ukulele", "vulture", "weather", "x-ray", "yarn", "zucchini", "basketball", "calculator", "dramatics", "electricity",
+        "fountain", "grapefruit", "houseplant", "imagination", "jamboree", "kettle", "landscape", "molecule", "narrative", "opulent",
+        "plankton", "quasar", "research", "scavenger", "turbulence", "underwater", "vegetable", "waterfall", "xylophonist", "youthful",
+        "archaeology", "biography", "conductor", "diplomat", "ecology", "flamingo", "glacier", "harpoon", "incubator", "juggernaut",
+        "kaleidoscope", "laboratory", "mathematics", "nebulous", "ornithology", "peacock", "quarantine", "revolution", "silhouette", "telescope"
     )
 
     private val hardWords = listOf(
         "aberration", "benevolent", "cacophony", "dichotomy", "effervescent", "facetious", "garrulous", "heuristic", "incomprehensible", "juxtaposition",
-        // ... (rest of the hard words)
+        "kaleidoscope", "loquacious", "metamorphosis", "nebulous", "obfuscate", "perpendicular", "quintessential", "rhetoric", "serendipity", "transcend",
+        "ubiquitous", "vicarious", "warranted", "xenophobic", "yarn", "zephyr", "archetype", "bombastic", "cacophony", "debilitate",
+        "ephemeral", "fastidious", "grandiloquent", "haphazard", "iconoclast", "juxtaposition", "kismet", "languid", "machiavellian", "nihilism",
+        "obsequious", "pseudonym", "quagmire", "recalcitrant", "sophistry", "tenacious", "unilateral", "vicissitude", "whimsical", "xylophone",
+        "yesterday", "zealous", "anachronism", "bamboozle", "camaraderie", "dichotomy", "epiphany", "fervent", "gargantuan", "histrionic",
+        "idiom", "juxtapose", "knapsack", "lucrative", "misanthrope", "neologism", "opulent", "paradigm", "quixotic", "resilient",
+        "sanctimonious", "tenebrous", "unfathomable", "venerable", "xenophile", "yawning", "zephyr", "antithesis", "bravado", "capricious",
+        "despondent", "euphoria", "flabbergasted", "grandiose", "hubris", "ineffable", "juxtaposition", "kaleidoscopic", "litigious", "meticulous",
+        "nonchalant", "obstinate", "precarious", "quizzical", "resplendent", "subterfuge", "terrestrial", "ubiquitous", "vicarious", "whimsy",
+        "xenogenesis", "yesteryear", "zealousness", "abomination", "banishment", "cognition", "delineate", "efficacious", "fortuitous", "germinate"
     )
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
